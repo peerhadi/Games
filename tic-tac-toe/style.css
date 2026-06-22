@@ -1,0 +1,60 @@
+
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgb(244,194,82);
+    line-height: 75px;
+    color: dodgerblue;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    text-align: center;
+    border-radius: 5px;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    border-radius: 7px;
+    border: 3px solid rgb(244,194,82);
+}
+
+body {
+    background-color: rgb(56,80,92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#statusText{
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+#restartBtn{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(244,194,82);
+    color:white;
+    width: 230px;
+    cursor: pointer;
+    font-size: 35px;
+    border: none;
+}
+
+h1{
+    color: rgb(244,194,82);
+    font-size: 70px;
+}
+
+*{
+    font-family: "Creepster", cursive;
+}
