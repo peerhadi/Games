@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #030b1e;
+}
+
+.storyImage {
+  display: block;
+  image-rendering: pixelated;
+  width: calc(98px * var(--pixel-size));
+  margin: 0 auto;
+  margin-bottom: calc(8px * var(--pixel-size));
+}
+
+.textContainer {
+  width: calc(160px * var(--pixel-size));
+  margin: 0 auto;
+  height: calc(48px * var(--pixel-size));
+}
